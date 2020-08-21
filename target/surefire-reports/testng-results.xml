@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139137" started-at="2020-08-16T00:15:42 IST" finished-at="2020-08-16T00:18:01 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="139137" started-at="2020-08-16T00:15:42 IST" finished-at="2020-08-16T00:18:01 IST">
+      <class name="regressionScripts.Regression">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="setUP" is-config="true" duration-ms="744" started-at="2020-08-16T00:15:41 IST" finished-at="2020-08-16T00:15:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="openApplication" is-config="true" duration-ms="22867" started-at="2020-08-16T00:15:42 IST" finished-at="2020-08-16T00:16:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="validLoginLogout()[pri:1, instance:regressionScripts.Regression@5a8e6209]" name="validLoginLogout" duration-ms="39007" started-at="2020-08-16T00:16:05 IST" finished-at="2020-08-16T00:16:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginLogout -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="tearDown" is-config="true" duration-ms="5922" started-at="2020-08-16T00:16:44 IST" finished-at="2020-08-16T00:16:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginLogout status=SUCCESS method=Regression.validLoginLogout()[pri:1, instance:regressionScripts.Regression@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="openApplication" is-config="true" duration-ms="19718" started-at="2020-08-16T00:16:50 IST" finished-at="2020-08-16T00:17:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="InvalidLogin()[pri:2, instance:regressionScripts.Regression@5a8e6209]" name="InvalidLogin" duration-ms="3618" started-at="2020-08-16T00:17:10 IST" finished-at="2020-08-16T00:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="tearDown" is-config="true" duration-ms="5587" started-at="2020-08-16T00:17:13 IST" finished-at="2020-08-16T00:17:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=Regression.InvalidLogin()[pri:2, instance:regressionScripts.Regression@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="openApplication" is-config="true" duration-ms="12474" started-at="2020-08-16T00:17:19 IST" finished-at="2020-08-16T00:17:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyActimeVersion()[pri:3, instance:regressionScripts.Regression@5a8e6209]" name="verifyActimeVersion" duration-ms="8929" started-at="2020-08-16T00:17:31 IST" finished-at="2020-08-16T00:17:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActimeVersion -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="tearDown" is-config="true" duration-ms="1355" started-at="2020-08-16T00:17:40 IST" finished-at="2020-08-16T00:17:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyActimeVersion status=SUCCESS method=Regression.verifyActimeVersion()[pri:3, instance:regressionScripts.Regression@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="openApplication" is-config="true" duration-ms="8310" started-at="2020-08-16T00:17:42 IST" finished-at="2020-08-16T00:17:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="sendBugReport()[pri:4, instance:regressionScripts.Regression@5a8e6209]" name="sendBugReport" duration-ms="10194" started-at="2020-08-16T00:17:50 IST" finished-at="2020-08-16T00:18:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendBugReport -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="tearDown" is-config="true" duration-ms="1100" started-at="2020-08-16T00:18:00 IST" finished-at="2020-08-16T00:18:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendBugReport status=SUCCESS method=Regression.sendBugReport()[pri:4, instance:regressionScripts.Regression@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:regressionScripts.Regression@5a8e6209]" name="tearDown" is-config="true" duration-ms="2142" started-at="2020-08-16T00:18:01 IST" finished-at="2020-08-16T00:18:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regressionScripts.Regression -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

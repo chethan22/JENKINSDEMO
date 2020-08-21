@@ -1,0 +1,10 @@
+generic\Generic_Test.class
+regressionScripts\Regression.class
+generic\ScreenShot.class
+generic\Auto_const.class
+pom\Login_Page.class
+pom\ReportBugPage.class
+generic\Excel.class
+pom\Enter_Time_Track.class
+generic\Base_Page.class
+generic\FileManger.class
