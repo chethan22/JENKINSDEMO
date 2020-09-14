@@ -9,7 +9,7 @@ import generic.Base_Page;
 public class Enter_Time_Track extends Base_Page {
 
 	@FindBy(id = "logoutLink")
-	private WebElement logOut;
+	private WebElement logOutbuttonw;
 
 	@FindBy(xpath = "(//div[@class='popup_menu_arrow'])[3]")
 	private WebElement help;
@@ -52,7 +52,7 @@ public class Enter_Time_Track extends Base_Page {
 	}
 
 	public void clickLogout() {
-		logOut.click();
+		logOutbuttonw.click();
 	}
 
 }
